@@ -1,0 +1,182 @@
+[
+  {
+    "id": "LANG-001",
+    "name": "C",
+    "description": "A low level programming language that provides direct access to memory and is widely used for operating systems and embedded software.",
+    "foundedYear": 1972,
+    "isCompiled": true,
+    "releaseDate": "1972-01-01",
+    "imageUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/c.png",
+    "paradigm": "Procedural",
+    "useCases": ["Operating Systems", "Embedded Systems"],
+    "languageLevel": {
+      "id": "LEVEL-001",
+      "name": "Low level",
+      "abstractionScore": 1,
+      "isMemoryManaged": false,
+      "iconUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/low-level.png"
+    }
+  },
+  {
+    "id": "LANG-002",
+    "name": "C++",
+    "description": "A powerful programming language that extends C with object oriented and generic programming features.",
+    "foundedYear": 1985,
+    "isCompiled": true,
+    "releaseDate": "1985-10-01",
+    "imageUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/cpp.png",
+    "paradigm": "Multi-paradigm",
+    "useCases": ["Game Development", "High Performance Applications"],
+    "languageLevel": {
+      "id": "LEVEL-002",
+      "name": "Mid level",
+      "abstractionScore": 2,
+      "isMemoryManaged": false,
+      "iconUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/mid-level.png"
+    }
+  },
+  {
+    "id": "LANG-003",
+    "name": "Rust",
+    "description": "A systems programming language focused on safety and performance, especially safe memory management without a garbage collector.",
+    "foundedYear": 2010,
+    "isCompiled": true,
+    "releaseDate": "2010-07-07",
+    "imageUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/rust.png",
+    "paradigm": "Multi-paradigm",
+    "useCases": ["Systems Programming", "Game Engines"],
+    "languageLevel": {
+      "id": "LEVEL-002",
+      "name": "Mid level",
+      "abstractionScore": 2,
+      "isMemoryManaged": false,
+      "iconUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/mid-level.png"
+    }
+  },
+  {
+    "id": "LANG-004",
+    "name": "Go",
+    "description": "A statically typed programming language designed for simplicity and efficiency in cloud and backend systems.",
+    "foundedYear": 2009,
+    "isCompiled": true,
+    "releaseDate": "2009-11-10",
+    "imageUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/go.png",
+    "paradigm": "Concurrent",
+    "useCases": ["Cloud Services", "Backend APIs"],
+    "languageLevel": {
+      "id": "LEVEL-003",
+      "name": "High level",
+      "abstractionScore": 3,
+      "isMemoryManaged": true,
+      "iconUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/high-level.png"
+    }
+  },
+  {
+    "id": "LANG-005",
+    "name": "Java",
+    "description": "A widely used object oriented programming language designed to run on any platform using the Java Virtual Machine.",
+    "foundedYear": 1995,
+    "isCompiled": true,
+    "releaseDate": "1995-05-23",
+    "imageUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/java.png",
+    "paradigm": "Object-oriented",
+    "useCases": ["Enterprise Software", "Android Development"],
+    "languageLevel": {
+      "id": "LEVEL-003",
+      "name": "High level",
+      "abstractionScore": 3,
+      "isMemoryManaged": true,
+      "iconUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/high-level.png"
+    }
+  },
+  {
+    "id": "LANG-006",
+    "name": "C#",
+    "description": "A modern object oriented programming language developed for building applications on the .NET platform.",
+    "foundedYear": 2000,
+    "isCompiled": true,
+    "releaseDate": "2000-06-01",
+    "imageUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/csharp.png",
+    "paradigm": "Object-oriented",
+    "useCases": ["Web APIs", "Desktop Applications"],
+    "languageLevel": {
+      "id": "LEVEL-003",
+      "name": "High level",
+      "abstractionScore": 3,
+      "isMemoryManaged": true,
+      "iconUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/high-level.png"
+    }
+  },
+  {
+    "id": "LANG-007",
+    "name": "Python",
+    "description": "A high level programming language known for its readability and extensive ecosystem.",
+    "foundedYear": 1991,
+    "isCompiled": false,
+    "releaseDate": "1991-02-20",
+    "imageUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/python.png",
+    "paradigm": "Multi-paradigm",
+    "useCases": ["Data Science", "Automation", "Machine Learning"],
+    "languageLevel": {
+      "id": "LEVEL-003",
+      "name": "High level",
+      "abstractionScore": 3,
+      "isMemoryManaged": true,
+      "iconUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/high-level.png"
+    }
+  },
+  {
+    "id": "LANG-008",
+    "name": "JavaScript",
+    "description": "A scripting language that enables interactive web pages and is widely used for both frontend and backend development.",
+    "foundedYear": 1995,
+    "isCompiled": false,
+    "releaseDate": "1995-12-04",
+    "imageUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/javascript.png",
+    "paradigm": "Multi-paradigm",
+    "useCases": ["Web Development", "Backend Development"],
+    "languageLevel": {
+      "id": "LEVEL-003",
+      "name": "High level",
+      "abstractionScore": 3,
+      "isMemoryManaged": true,
+      "iconUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/high-level.png"
+    }
+  },
+  {
+    "id": "LANG-009",
+    "name": "PHP",
+    "description": "A server side scripting language primarily used for web development and content management systems.",
+    "foundedYear": 1995,
+    "isCompiled": false,
+    "releaseDate": "1995-06-08",
+    "imageUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/php.png",
+    "paradigm": "Scripting",
+    "useCases": ["Web Development", "CMS Platforms"],
+    "languageLevel": {
+      "id": "LEVEL-003",
+      "name": "High level",
+      "abstractionScore": 3,
+      "isMemoryManaged": true,
+      "iconUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/high-level.png"
+    }
+  },
+  {
+    "id": "LANG-010",
+    "name": "Assembly",
+    "description": "A very low level programming language that is specific to a computer architecture and offers direct hardware control.",
+    "foundedYear": 1949,
+    "isCompiled": true,
+    "releaseDate": "1949-01-01",
+    "imageUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/assembly.png",
+    "paradigm": "Low-level",
+    "useCases": ["Hardware Control", "Performance Critical Code"],
+    "languageLevel": {
+      "id": "LEVEL-001",
+      "name": "Low level",
+      "abstractionScore": 1,
+      "isMemoryManaged": false,
+      "iconUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/low-level.png"
+    }
+  }
+]
