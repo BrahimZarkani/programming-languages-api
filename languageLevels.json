@@ -1,0 +1,26 @@
+[
+  {
+    "id": "LEVEL-001",
+    "name": "Low level",
+    "description": "Languages that operate close to hardware with minimal abstraction and maximum control.",
+    "abstractionScore": 1,
+    "isMemoryManaged": false,
+    "iconUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/low-level.png"
+  },
+  {
+    "id": "LEVEL-002",
+    "name": "Mid level",
+    "description": "Languages that balance low level control with higher level abstractions.",
+    "abstractionScore": 2,
+    "isMemoryManaged": false,
+    "iconUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/mid-level.png"
+  },
+  {
+    "id": "LEVEL-003",
+    "name": "High level",
+    "description": "Languages that prioritize developer productivity and abstraction over hardware details.",
+    "abstractionScore": 3,
+    "isMemoryManaged": true,
+    "iconUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/high-level.png"
+  }
+]
