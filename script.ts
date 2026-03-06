@@ -23,7 +23,12 @@ while (running) {
                 `Choose an ID to filter by (1-${language.length}): `
             );
 
-            ShowLanguages(filterId);
+            if (filterId >= 1 && filterId <= 10) {
+                ShowLanguages(filterId);
+            }
+            else {
+                console.log("Invalid ID.");
+            }
             break;
         case 3:
             running = false;
