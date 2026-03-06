@@ -1,4 +1,4 @@
-interface Languages {
+interface Language {
     id: number,
     name: string,
     description: string,
@@ -8,10 +8,10 @@ interface Languages {
     imageUrl: string,
     paradigm: string,
     useCases: string[],
-    languageLevel: Levels[]
+    languageLevel: Level[]
 }
 
-interface Levels {
+interface Level {
     id: string,
     name: string,
     abstractionScore: number,
