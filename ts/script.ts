@@ -1,6 +1,5 @@
 import rl from "readline-sync";
-import language from "./programming-languages.json";
-import levlangs from "./language-types.json";
+import language from "../programming-languages.json";
 import "./interfaces.ts";
 
 console.log("=== JSON Data Viewer ===");

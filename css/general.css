@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Space+Grotesk:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --background-color: #fdfdfd; /* Brilliance */
+  --background-hover-color: #f3f1f3; /* Aragonite White */
+  --text-color: #000000; /* Black */
+}
+
+* {
+  font-family: "Comfortaa", "Verdana", "sans-serif";
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+/* Navigation style */
+nav {
+  display: flex;
+  background-color: var(--background-color);
+}
+
+nav a {
+  display: flex;
+  flex: 1;
+  padding: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav p {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px;
+}
+
+nav img {
+  width: 2rem;
+}
+
+nav a:hover {
+  background-color: var(--background-hover-color);
+}
+/* */
