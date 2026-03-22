@@ -6,7 +6,7 @@
     "releaseYear": 1991,
     "abstraction": "High-level",
     "memoryManagment": "Garbage-collected",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/330px-Python-logo-notext.svg.png",
+    "icon": "",
     "type": {
       "id": "TYPE-04",
       "name": "Scripting languages",
@@ -21,7 +21,7 @@
     "releaseYear": 1995,
     "abstraction": "High-level",
     "memoryManagment": "Garbage-collected",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+    "icon": "",
     "type": {
       "id": "TYPE-04",
       "name": "Scripting languages",
@@ -36,7 +36,7 @@
     "releaseYear": 1995,
     "abstraction": "High-level",
     "memoryManagment": "Garbage-collected",
-    "icon": "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
+    "icon": "",
     "type": {
       "id": "TYPE-03",
       "name": "Object-oriented programming languages",
@@ -51,7 +51,7 @@
     "releaseYear": 1985,
     "abstraction": "Mid-level",
     "memoryManagment": "Manual (with RAII support)",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
+    "icon": "",
     "type": {
       "id": "TYPE-01",
       "name": "Procedural programming languages",
@@ -66,7 +66,7 @@
     "releaseYear": 2014,
     "abstraction": "High-level",
     "memoryManagment": "Automatic Reference Counting",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/5/51/Swift_logo.svg",
+    "icon": "",
     "type": {
       "id": "TYPE-03",
       "name": "Object-oriented programming languages",
@@ -81,7 +81,7 @@
     "releaseYear": 1995,
     "abstraction": "High-level",
     "memoryManagment": "Garbage-collected",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg",
+    "icon": "",
     "type": {
       "id": "TYPE-04",
       "name": "Scripting languages",
@@ -96,7 +96,7 @@
     "releaseYear": 2009,
     "abstraction": "High-level",
     "memoryManagment": "Garbage-collected",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg",
+    "icon": "",
     "type": {
       "id": "TYPE-04",
       "name": "Scripting languages",
@@ -111,7 +111,7 @@
     "releaseYear": 1972,
     "abstraction": "Low-level",
     "memoryManagment": "Manual",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/3/35/The_C_Programming_Language_logo.svg",
+    "icon": "",
     "type": {
       "id": "TYPE-01",
       "name": "Procedural programming languages",
@@ -126,7 +126,7 @@
     "releaseYear": 2010,
     "abstraction": "High-level",
     "memoryManagment": "Ownership based",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Rust_programming_language_black_logo.svg",
+    "icon": "",
     "type": {
       "id": "TYPE-03",
       "name": "Object-oriented programming languages",
@@ -141,7 +141,7 @@
     "releaseYear": 2011,
     "abstraction": "High-level",
     "memoryManagment": "Garbage-collected",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png",
+    "icon": "",
     "type": {
       "id": "TYPE-03",
       "name": "Object-oriented programming languages",
@@ -156,7 +156,7 @@
     "releaseYear": 1995,
     "abstraction": "High-level",
     "memoryManagment": "Garbage-collected",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg",
+    "icon": "",
     "type": {
       "id": "TYPE-04",
       "name": "Scripting languages",
@@ -171,7 +171,7 @@
     "releaseYear": 1990,
     "abstraction": "High-level",
     "memoryManagment": "Garbage-collected",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Haskell-Logo.svg",
+    "icon": "",
     "type": {
       "id": "TYPE-02",
       "name": "Functional programming languages",
@@ -186,7 +186,7 @@
     "releaseYear": 1972,
     "abstraction": "High-level",
     "memoryManagment": "Garbage-collected",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/8/87/Prolog-logo.png",
+    "icon": "",
     "type": {
       "id": "TYPE-05",
       "name": "Logic programming languages",
@@ -201,7 +201,7 @@
     "releaseYear": 1987,
     "abstraction": "High-level",
     "memoryManagment": "Garbage-collected",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Perl_6_logo.png",
+    "icon": "",
     "type": {
       "id": "TYPE-04",
       "name": "Scripting languages",
