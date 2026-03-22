@@ -7,16 +7,17 @@
 .item-list tr {
   display: flex;
   flex-direction: row;
-  height: 10rem;
+  height: fit-content;
   margin: 1rem;
   padding: 1rem;
-  border: 2px solid #000000;
+  border: 1px solid #000000;
   border-radius: 8px;
 }
 
 .item-list th,
 .item-list td {
-  display: flex;
+  display: block;
+  overflow: hidden;
   flex: 1;
   justify-content: center;
   align-items: center;
