@@ -6,7 +6,7 @@
     "releaseYear": 1991,
     "abstraction": "High-level",
     "memoryManagment": "Garbage-collected",
-    "icon": "",
+    "icon": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/assets/python-icon.png",
     "type": {
       "id": "TYPE-04",
       "name": "Scripting languages",
@@ -21,7 +21,7 @@
     "releaseYear": 1995,
     "abstraction": "High-level",
     "memoryManagment": "Garbage-collected",
-    "icon": "",
+    "icon": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/assets/javascript-icon.png",
     "type": {
       "id": "TYPE-04",
       "name": "Scripting languages",
@@ -36,7 +36,7 @@
     "releaseYear": 1995,
     "abstraction": "High-level",
     "memoryManagment": "Garbage-collected",
-    "icon": "",
+    "icon": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/assets/java-icon.png",
     "type": {
       "id": "TYPE-03",
       "name": "Object-oriented programming languages",
@@ -51,7 +51,7 @@
     "releaseYear": 1985,
     "abstraction": "Mid-level",
     "memoryManagment": "Manual (with RAII support)",
-    "icon": "",
+    "icon": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/assets/cplusplus-icon.png",
     "type": {
       "id": "TYPE-01",
       "name": "Procedural programming languages",
@@ -66,7 +66,7 @@
     "releaseYear": 2014,
     "abstraction": "High-level",
     "memoryManagment": "Automatic Reference Counting",
-    "icon": "",
+    "icon": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/assets/swift-icon.png",
     "type": {
       "id": "TYPE-03",
       "name": "Object-oriented programming languages",
@@ -81,7 +81,7 @@
     "releaseYear": 1995,
     "abstraction": "High-level",
     "memoryManagment": "Garbage-collected",
-    "icon": "",
+    "icon": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/assets/ruby-icon.png",
     "type": {
       "id": "TYPE-04",
       "name": "Scripting languages",
@@ -96,7 +96,7 @@
     "releaseYear": 2009,
     "abstraction": "High-level",
     "memoryManagment": "Garbage-collected",
-    "icon": "",
+    "icon": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/assets/go-icon.png",
     "type": {
       "id": "TYPE-04",
       "name": "Scripting languages",
@@ -111,7 +111,7 @@
     "releaseYear": 1972,
     "abstraction": "Low-level",
     "memoryManagment": "Manual",
-    "icon": "",
+    "icon": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/assets/c-icon.png",
     "type": {
       "id": "TYPE-01",
       "name": "Procedural programming languages",
@@ -126,7 +126,7 @@
     "releaseYear": 2010,
     "abstraction": "High-level",
     "memoryManagment": "Ownership based",
-    "icon": "",
+    "icon": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/assets/rust-icon.png",
     "type": {
       "id": "TYPE-03",
       "name": "Object-oriented programming languages",
@@ -141,7 +141,7 @@
     "releaseYear": 2011,
     "abstraction": "High-level",
     "memoryManagment": "Garbage-collected",
-    "icon": "",
+    "icon": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/assets/kotlin-icon.png",
     "type": {
       "id": "TYPE-03",
       "name": "Object-oriented programming languages",
@@ -156,7 +156,7 @@
     "releaseYear": 1995,
     "abstraction": "High-level",
     "memoryManagment": "Garbage-collected",
-    "icon": "",
+    "icon": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/assets/php-icon.png",
     "type": {
       "id": "TYPE-04",
       "name": "Scripting languages",
@@ -171,7 +171,7 @@
     "releaseYear": 1990,
     "abstraction": "High-level",
     "memoryManagment": "Garbage-collected",
-    "icon": "",
+    "icon": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/assets/haskell-icon.png",
     "type": {
       "id": "TYPE-02",
       "name": "Functional programming languages",
@@ -186,7 +186,7 @@
     "releaseYear": 1972,
     "abstraction": "High-level",
     "memoryManagment": "Garbage-collected",
-    "icon": "",
+    "icon": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/assets/prolog-icon.png",
     "type": {
       "id": "TYPE-05",
       "name": "Logic programming languages",
@@ -201,7 +201,7 @@
     "releaseYear": 1987,
     "abstraction": "High-level",
     "memoryManagment": "Garbage-collected",
-    "icon": "",
+    "icon": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/assets/perl-icon.png",
     "type": {
       "id": "TYPE-04",
       "name": "Scripting languages",
