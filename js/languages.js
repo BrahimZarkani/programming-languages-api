@@ -24,7 +24,6 @@ function displayItems(langs) {
         <th>Developer</th>
         <th>Year of release</th>
         <th>Abstraction</th>
-        <th>Memory managment</th>
         <th>Type</th>
       </tr>
     </table>
@@ -39,8 +38,7 @@ function displayItems(langs) {
       <td>${lang.developer}</td>
       <td>${lang.releaseYear}</td>
       <td>${lang.abstraction}</td>
-      <td>${lang.memoryManagment}</td>
-      <td><button type="click" id="${lang.id}">View more</button></td>
+      <td><button type="click" id="${lang.id}">View</button></td>
   `;
 
     table.appendChild(row);
@@ -64,6 +62,8 @@ document.querySelector(".item-list").addEventListener("click", (e) => {
       <p>${selected.abstraction}</p>
       <p>${selected.memoryManagment}</p>
       <p>${selected.type.name}</p>
+      <p>${selected.type.description}</p>
+      <p>Popularity: ${selected.type.popularity} / 5</p>
     `;
   }
 

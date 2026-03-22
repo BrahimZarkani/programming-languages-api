@@ -12,7 +12,6 @@
   width: fit-content;
   margin: 4rem 0;
   padding: 8px;
-  border: 2px solid #000000;
   border-radius: 8px;
 }
 
@@ -44,6 +43,7 @@
 .item-list tr {
   display: flex;
   flex-direction: row;
+  height: 10rem;
   margin: 1rem;
   padding: 1rem;
   border: 2px solid #000000;
@@ -82,9 +82,16 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #DEC7CF;
+  background-color: #dec7cf;
   padding: 1rem;
   border-radius: 1rem;
+}
+
+.info-ui td {
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 #icon {
