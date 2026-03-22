@@ -1,182 +1,212 @@
 [
   {
-    "id": "LANG-001",
-    "name": "C",
-    "description": "A low level programming language that provides direct access to memory and is widely used for operating systems and embedded software.",
-    "foundedYear": 1972,
-    "isCompiled": true,
-    "releaseDate": "1972-01-01",
-    "imageUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/c.png",
-    "paradigm": "Procedural",
-    "useCases": ["Operating Systems", "Embedded Systems"],
-    "languageLevel": {
-      "id": "LEVEL-001",
-      "name": "Low level",
-      "abstractionScore": 1,
-      "isMemoryManaged": false,
-      "iconUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/low-level.png"
-    }
-  },
-  {
-    "id": "LANG-002",
-    "name": "C++",
-    "description": "A powerful programming language that extends C with object oriented and generic programming features.",
-    "foundedYear": 1985,
-    "isCompiled": true,
-    "releaseDate": "1985-10-01",
-    "imageUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/cpp.png",
-    "paradigm": "Multi-paradigm",
-    "useCases": ["Game Development", "High Performance Applications"],
-    "languageLevel": {
-      "id": "LEVEL-002",
-      "name": "Mid level",
-      "abstractionScore": 2,
-      "isMemoryManaged": false,
-      "iconUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/mid-level.png"
-    }
-  },
-  {
-    "id": "LANG-003",
-    "name": "Rust",
-    "description": "A systems programming language focused on safety and performance, especially safe memory management without a garbage collector.",
-    "foundedYear": 2010,
-    "isCompiled": true,
-    "releaseDate": "2010-07-07",
-    "imageUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/rust.png",
-    "paradigm": "Multi-paradigm",
-    "useCases": ["Systems Programming", "Game Engines"],
-    "languageLevel": {
-      "id": "LEVEL-002",
-      "name": "Mid level",
-      "abstractionScore": 2,
-      "isMemoryManaged": false,
-      "iconUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/mid-level.png"
-    }
-  },
-  {
-    "id": "LANG-004",
-    "name": "Go",
-    "description": "A statically typed programming language designed for simplicity and efficiency in cloud and backend systems.",
-    "foundedYear": 2009,
-    "isCompiled": true,
-    "releaseDate": "2009-11-10",
-    "imageUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/go.png",
-    "paradigm": "Concurrent",
-    "useCases": ["Cloud Services", "Backend APIs"],
-    "languageLevel": {
-      "id": "LEVEL-003",
-      "name": "High level",
-      "abstractionScore": 3,
-      "isMemoryManaged": true,
-      "iconUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/high-level.png"
-    }
-  },
-  {
-    "id": "LANG-005",
-    "name": "Java",
-    "description": "A widely used object oriented programming language designed to run on any platform using the Java Virtual Machine.",
-    "foundedYear": 1995,
-    "isCompiled": true,
-    "releaseDate": "1995-05-23",
-    "imageUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/java.png",
-    "paradigm": "Object-oriented",
-    "useCases": ["Enterprise Software", "Android Development"],
-    "languageLevel": {
-      "id": "LEVEL-003",
-      "name": "High level",
-      "abstractionScore": 3,
-      "isMemoryManaged": true,
-      "iconUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/high-level.png"
-    }
-  },
-  {
-    "id": "LANG-006",
-    "name": "C#",
-    "description": "A modern object oriented programming language developed for building applications on the .NET platform.",
-    "foundedYear": 2000,
-    "isCompiled": true,
-    "releaseDate": "2000-06-01",
-    "imageUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/csharp.png",
-    "paradigm": "Object-oriented",
-    "useCases": ["Web APIs", "Desktop Applications"],
-    "languageLevel": {
-      "id": "LEVEL-003",
-      "name": "High level",
-      "abstractionScore": 3,
-      "isMemoryManaged": true,
-      "iconUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/high-level.png"
-    }
-  },
-  {
-    "id": "LANG-007",
+    "id": "LANG-01",
     "name": "Python",
-    "description": "A high level programming language known for its readability and extensive ecosystem.",
-    "foundedYear": 1991,
-    "isCompiled": false,
-    "releaseDate": "1991-02-20",
-    "imageUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/python.png",
-    "paradigm": "Multi-paradigm",
-    "useCases": ["Data Science", "Automation", "Machine Learning"],
-    "languageLevel": {
-      "id": "LEVEL-003",
-      "name": "High level",
-      "abstractionScore": 3,
-      "isMemoryManaged": true,
-      "iconUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/high-level.png"
+    "developer": "Python Software Foundation",
+    "releaseYear": 1991,
+    "abstraction": "High-level",
+    "memoryManagment": "Garbage-collected",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/330px-Python-logo-notext.svg.png",
+    "type": {
+      "id": "TYPE-04",
+      "name": "Scripting languages",
+      "description": "Programmers use scripting languages to automate repetitive tasks, manage dynamic web content, or support processes in larger applications.",
+      "popularity": 5
     }
   },
   {
-    "id": "LANG-008",
+    "id": "LANG-02",
     "name": "JavaScript",
-    "description": "A scripting language that enables interactive web pages and is widely used for both frontend and backend development.",
-    "foundedYear": 1995,
-    "isCompiled": false,
-    "releaseDate": "1995-12-04",
-    "imageUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/javascript.png",
-    "paradigm": "Multi-paradigm",
-    "useCases": ["Web Development", "Backend Development"],
-    "languageLevel": {
-      "id": "LEVEL-003",
-      "name": "High level",
-      "abstractionScore": 3,
-      "isMemoryManaged": true,
-      "iconUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/high-level.png"
+    "developer": "Originally Netscape; standardized by Ecma International",
+    "releaseYear": 1995,
+    "abstraction": "High-level",
+    "memoryManagment": "Garbage-collected",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+    "type": {
+      "id": "TYPE-04",
+      "name": "Scripting languages",
+      "description": "Programmers use scripting languages to automate repetitive tasks, manage dynamic web content, or support processes in larger applications.",
+      "popularity": 5
     }
   },
   {
-    "id": "LANG-009",
+    "id": "LANG-03",
+    "name": "Java",
+    "developer": "Sun Microsystems (now Oracle)",
+    "releaseYear": 1995,
+    "abstraction": "High-level",
+    "memoryManagment": "Garbage-collected",
+    "icon": "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
+    "type": {
+      "id": "TYPE-03",
+      "name": "Object-oriented programming languages",
+      "description": "This type of language treats a program as a group of objects composed of data and program elements, known as attributes and methods.",
+      "popularity": 5
+    }
+  },
+  {
+    "id": "LANG-04",
+    "name": "C++",
+    "developer": "Bjarne Stroustrup",
+    "releaseYear": 1985,
+    "abstraction": "Mid-level",
+    "memoryManagment": "Manual (with RAII support)",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
+    "type": {
+      "id": "TYPE-01",
+      "name": "Procedural programming languages",
+      "description": "A procedural language follows a sequence of statements or commands in order to achieve a desired output.",
+      "popularity": 3
+    }
+  },
+  {
+    "id": "LANG-05",
+    "name": "Swift",
+    "developer": "Apple Inc.",
+    "releaseYear": 2014,
+    "abstraction": "High-level",
+    "memoryManagment": "Automatic Reference Counting",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/5/51/Swift_logo.svg",
+    "type": {
+      "id": "TYPE-03",
+      "name": "Object-oriented programming languages",
+      "description": "This type of language treats a program as a group of objects composed of data and program elements, known as attributes and methods.",
+      "popularity": 5
+    }
+  },
+  {
+    "id": "LANG-06",
+    "name": "Ruby",
+    "developer": "Yukihiro Matsumoto",
+    "releaseYear": 1995,
+    "abstraction": "High-level",
+    "memoryManagment": "Garbage-collected",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg",
+    "type": {
+      "id": "TYPE-04",
+      "name": "Scripting languages",
+      "description": "Programmers use scripting languages to automate repetitive tasks, manage dynamic web content, or support processes in larger applications.",
+      "popularity": 4
+    }
+  },
+  {
+    "id": "LANG-07",
+    "name": "Go",
+    "developer": "Google",
+    "releaseYear": 2009,
+    "abstraction": "High-level",
+    "memoryManagment": "Garbage-collected",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg",
+    "type": {
+      "id": "TYPE-04",
+      "name": "Scripting languages",
+      "description": "Programmers use scripting languages to automate repetitive tasks, manage dynamic web content, or support processes in larger applications.",
+      "popularity": 4
+    }
+  },
+  {
+    "id": "LANG-08",
+    "name": "C",
+    "developer": "Dennis Ritchie at Bell Labs",
+    "releaseYear": 1972,
+    "abstraction": "Low-level",
+    "memoryManagment": "Manual",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/3/35/The_C_Programming_Language_logo.svg",
+    "type": {
+      "id": "TYPE-01",
+      "name": "Procedural programming languages",
+      "description": "A procedural language follows a sequence of statements or commands in order to achieve a desired output.",
+      "popularity": 3
+    }
+  },
+  {
+    "id": "LANG-09",
+    "name": "Rust",
+    "developer": "Mozilla Research",
+    "releaseYear": 2010,
+    "abstraction": "High-level",
+    "memoryManagment": "Ownership based",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Rust_programming_language_black_logo.svg",
+    "type": {
+      "id": "TYPE-03",
+      "name": "Object-oriented programming languages",
+      "description": "This type of language treats a program as a group of objects composed of data and program elements, known as attributes and methods.",
+      "popularity": 5
+    }
+  },
+  {
+    "id": "LANG-10",
+    "name": "Kotlin",
+    "developer": "JetBrains",
+    "releaseYear": 2011,
+    "abstraction": "High-level",
+    "memoryManagment": "Garbage-collected",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png",
+    "type": {
+      "id": "TYPE-03",
+      "name": "Object-oriented programming languages",
+      "description": "This type of language treats a program as a group of objects composed of data and program elements, known as attributes and methods.",
+      "popularity": 5
+    }
+  },
+  {
+    "id": "LANG-11",
     "name": "PHP",
-    "description": "A server side scripting language primarily used for web development and content management systems.",
-    "foundedYear": 1995,
-    "isCompiled": false,
-    "releaseDate": "1995-06-08",
-    "imageUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/php.png",
-    "paradigm": "Scripting",
-    "useCases": ["Web Development", "CMS Platforms"],
-    "languageLevel": {
-      "id": "LEVEL-003",
-      "name": "High level",
-      "abstractionScore": 3,
-      "isMemoryManaged": true,
-      "iconUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/high-level.png"
+    "developer": "Rasmus Lerdorf",
+    "releaseYear": 1995,
+    "abstraction": "High-level",
+    "memoryManagment": "Garbage-collected",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg",
+    "type": {
+      "id": "TYPE-04",
+      "name": "Scripting languages",
+      "description": "Programmers use scripting languages to automate repetitive tasks, manage dynamic web content, or support processes in larger applications.",
+      "popularity": 5
     }
   },
   {
-    "id": "LANG-010",
-    "name": "Assembly",
-    "description": "A very low level programming language that is specific to a computer architecture and offers direct hardware control.",
-    "foundedYear": 1949,
-    "isCompiled": true,
-    "releaseDate": "1949-01-01",
-    "imageUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/assembly.png",
-    "paradigm": "Low-level",
-    "useCases": ["Hardware Control", "Performance Critical Code"],
-    "languageLevel": {
-      "id": "LEVEL-001",
-      "name": "Low level",
-      "abstractionScore": 1,
-      "isMemoryManaged": false,
-      "iconUrl": "https://raw.githubusercontent.com/BrahimZarkani/programming-languages-api/main/images/low-level.png"
+    "id": "LANG-12",
+    "name": "Haskell",
+    "developer": "Haskell Committee",
+    "releaseYear": 1990,
+    "abstraction": "High-level",
+    "memoryManagment": "Garbage-collected",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Haskell-Logo.svg",
+    "type": {
+      "id": "TYPE-02",
+      "name": "Functional programming languages",
+      "description": "Functional languages focus on the output of mathematical functions and evaluations.",
+      "popularity": 4
+    }
+  },
+  {
+    "id": "LANG-13",
+    "name": "Prolog",
+    "developer": "Alain Colmerauer and Philippe Roussel",
+    "releaseYear": 1972,
+    "abstraction": "High-level",
+    "memoryManagment": "Garbage-collected",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/8/87/Prolog-logo.png",
+    "type": {
+      "id": "TYPE-05",
+      "name": "Logic programming languages",
+      "description": "Instead of telling a computer what to do, a logic programming language expresses a series of facts and rules to instruct the computer on making decisions.",
+      "popularity": 2
+    }
+  },
+  {
+    "id": "LANG-14",
+    "name": "Perl",
+    "developer": "Larry Wall",
+    "releaseYear": 1987,
+    "abstraction": "High-level",
+    "memoryManagment": "Garbage-collected",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Perl_6_logo.png",
+    "type": {
+      "id": "TYPE-04",
+      "name": "Scripting languages",
+      "description": "Programmers use scripting languages to automate repetitive tasks, manage dynamic web content, or support processes in larger applications.",
+      "popularity": 4
     }
   }
 ]

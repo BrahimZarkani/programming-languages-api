@@ -1,0 +1,32 @@
+[
+  {
+    "id": "TYPE-01",
+    "name": "Procedural programming languages",
+    "description": "A procedural language follows a sequence of statements or commands in order to achieve a desired output. Each series of steps is called a procedure, and a program written in one of these languages will have one or more procedures within it.",
+    "popularity": 3
+  },
+  {
+    "id": "TYPE-02",
+    "name": "Functional programming languages",
+    "description": "Functional languages focus on the output of mathematical functions and evaluations. Each function (a reusable module of code) performs a specific task and returns a result. The result will vary depending on what data you input into the function.",
+    "popularity": 4
+  },
+  {
+    "id": "TYPE-03",
+    "name": "Object-oriented programming languages",
+    "description": "This type of language treats a program as a group of objects composed of data and program elements, known as attributes and methods. Objects can be reused within a program or in other programs. This makes it a popular language type for complex programs, as code is easier to reuse and scale.",
+    "popularity": 5
+  },
+  {
+    "id": "TYPE-04",
+    "name": "Scripting languages",
+    "description": "Programmers use scripting languages to automate repetitive tasks, manage dynamic web content, or support processes in larger applications.",
+    "popularity": 5
+  },
+  {
+    "id": "TYPE-05",
+    "name": "Logic programming languages",
+    "description": "Instead of telling a computer what to do, a logic programming language expresses a series of facts and rules to instruct the computer on how to make decisions.",
+    "popularity": 2
+  }
+]
