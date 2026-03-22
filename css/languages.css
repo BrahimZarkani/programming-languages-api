@@ -68,10 +68,31 @@
   font-size: 20px;
 }
 
-.item-list a {
+.item-list button {
+  cursor: pointer;
   color: #5588dd;
 }
 
-.searchbar img {
+.info-ui {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #DEC7CF;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+#icon {
+  width: 8rem;
+}
+
+#btn-close {
+  width: 20px;
+  align-self: flex-end;
   cursor: pointer;
 }

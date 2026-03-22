@@ -40,9 +40,35 @@ function displayItems(langs) {
       <td>${lang.releaseYear}</td>
       <td>${lang.abstraction}</td>
       <td>${lang.memoryManagment}</td>
-      <td><a href="#">View more</a></td>
+      <td><button type="click" id="${lang.id}">View more</button></td>
   `;
 
     table.appendChild(row);
   });
 }
+
+const info = document.querySelector(".info-ui");
+info.style.display = "none";
+document.querySelector(".item-list").addEventListener("click", (e) => {
+  const selected = languages.find((lang) => e.target.id === lang.id);
+
+  if (selected) {
+    info.style.display = "flex";
+
+    info.innerHTML = `
+      <img src="./assets/close-icon.png" id="btn-close" />
+      <img src="${selected.icon}" id="icon" />
+      <em>${selected.name}</em>
+      <p>${selected.developer}</p>
+      <p>${selected.releaseYear}</p>
+      <p>${selected.abstraction}</p>
+      <p>${selected.memoryManagment}</p>
+      <p>${selected.type.name}</p>
+    `;
+  }
+
+  document.getElementById("btn-close").addEventListener("click", () => {
+    info.style.display = "none";
+    info.innerHTML = "";
+  });
+});
