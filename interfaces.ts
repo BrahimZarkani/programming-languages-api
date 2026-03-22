@@ -1,20 +1,18 @@
 interface Language {
-    id: number,
-    name: string,
-    description: string,
-    foundedYear: number,
-    isCompiled: boolean,
-    releaseDate: string,
-    imageUrl: string,
-    paradigm: string,
-    useCases: string[],
-    languageLevel: Level[]
+  id: string;
+  name: string;
+  developer: string;
+  releaseYear: number;
+  abstraction: string;
+  releaseDate: string;
+  memoryManagment: string;
+  icon: string;
+  type: Type[];
 }
 
-interface Level {
-    id: string,
-    name: string,
-    abstractionScore: number,
-    isMemoryManaged: boolean,
-    iconUrl: string
+interface Type {
+  id: string;
+  name: string;
+  description: string;
+  popularity: number;
 }
