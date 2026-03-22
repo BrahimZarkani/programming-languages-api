@@ -7,10 +7,27 @@
 
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/languages.css" />
 
     <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/languages.js"></script>
   </head>
   <body>
     <nav class="navbar"></nav>
+
+    <main>
+      <section class="search-list">
+        <section class="searchbar">
+          <input type="text" id="search-value" placeholder="Search" />
+          <button type="click" id="btn-search"><img src="./assets/search-icon.png" /></button>
+        </section>
+
+        <!-- <section class="sort-btns">
+          <button type="sort-name">Name</button>
+          <button type="sort-developer">Developer</button>
+        </section> -->
+      </section>
+      <table class="item-list"></table>
+    </main>
   </body>
 </html>
