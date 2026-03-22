@@ -1,6 +1,6 @@
 import rl from "readline-sync";
 import language from "./programming-languages.json";
-import levels from "./language-types.json";
+import levlangs from "./language-types.json";
 import "./interfaces.ts";
 
 console.log("=== JSON Data Viewer ===");
@@ -40,20 +40,20 @@ while (running) {
 
 function ShowLanguages(id: number = -1) {
   const languages: string[] = language
-    .filter((el, i) => (id === -1 ? 1 : id === i + 1))
-    .map((el) => {
+    .filter((lang, i) => (id === -1 ? 1 : id === i + 1))
+    .map((lang) => {
       return [
-        `\n\n- ${el.name} (${el.type.id})`,
-        `\t- Name: ${el.name}`,
-        `\t- Developer: ${el.developer}`,
-        `\t- Releasedate: ${el.releaseYear}`,
-        `\t- Abstraction: ${el.abstraction}`,
-        `\t- Memory managment: ${el.memoryManagment}`,
-        `\t- Icon: ${el.icon}`,
-        `\t- Type: ${el.type.name}`,
-        `\t\t- Name: ${el.type.name}`,
-        `\t\t- Description: ${el.type.description}`,
-        `\t\t- Popularity: ${el.type.popularity}`,
+        `\n\n- ${lang.name} (${lang.type.id})`,
+        `    - Name: ${lang.name}`,
+        `    - Devlangoper: ${lang.developer}`,
+        `    - Year of rlangease: ${lang.releaseYear}`,
+        `    - Abstraction: ${lang.abstraction}`,
+        `    - Memory managment: ${lang.memoryManagment}`,
+        `    - Icon: ${lang.icon}`,
+        `    - Type: ${lang.type.name}`,
+        `        - Name: ${lang.type.name}`,
+        `        - Description: ${lang.type.description}`,
+        `        - Popularity (1-5): ${lang.type.popularity}`,
       ]
         .join("\n")
         .replaceAll(",", "");
